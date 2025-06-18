@@ -17,19 +17,19 @@
 
 
 
- let arrNew=[];
 function findUniqueElements(array) {
-
+ 
+    let arr=[];
    
     for (let i=0; i<array.length; i++) {
-        let perm=includesElement(arrNew, array[i]);
+        let perm=includesElement(arr, array[i]);
         if (perm===false) {
-            arrNew.push(array[i]);
+            arr.push(array[i]);
         }
         
         
     }
-    return arrNew;
+    return arr;
 }
 
 
