@@ -12,7 +12,8 @@
 function truncate(str, maxLength) {
 
   let newStr = str.slice(0, maxLength) + '...';
-  console.log(newStr);
+  
+  return newStr;
   
   // your code
 }
